@@ -1,0 +1,1260 @@
+
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+hr{padding: 0px;margin: 0px;color: #c8c9ca;}
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+/* header area start */
+#header-area{position: absolute;z-index: 1000000000;top: 2%;left: 0;right: 0;}
+
+/* header area end */
+/* top header area start */
+#top-bars-1{
+    display: none;
+}
+.top-itmes{
+}
+.top-icon{
+    font-size:15px;
+    color: white;
+}
+.top-text{font-size:15px;color: white;}
+.socile-icon{
+
+}
+.icon-itme{
+
+background: #ef4634;
+
+margin: 3px;
+
+text-align: center;
+
+padding-top: 4px;
+
+display: inline-block;
+
+font-size: 22px;
+
+color: #ffffff;
+
+border-radius: 33px;
+
+width: 40px;
+
+height: 40px;
+}
+.icon-itme i{
+}
+/* top header area end */
+
+/* nav bar start */
+.top-bar{position:relative;}
+.nav-logo{
+    padding-bottom: 5px;
+}
+.nav-logo img{
+
+max-width: 30%;
+}
+.nav-ul{position: relative;margin: 0px;list-style-type: none;justify-content: end;display: flex;}
+.anchor-tag{
+
+text-decoration: none;
+
+float: left;
+
+padding: 24px 11px;
+
+font-family: 'Poppins';
+
+font-size: 16px;
+
+font-weight: 500;
+
+color: white;
+}
+.anchor-tag:hover{
+    color:#EF5F43;
+}
+#active{
+
+color: #EF5F43;
+}
+.button-area{}
+.button-area a{
+
+background: #A0C814;
+
+color: #383A3C;
+
+font-size: 17px;
+
+font-weight: 500;
+
+text-decoration: none;
+
+padding: 13px 37px;
+}
+.nav-border{
+    
+border-style: solid;
+    
+border-color: #c8c9ca;
+    
+border-width: 0px 1px 0px 1px;
+}
+.button-area:hover a {
+    color: aliceblue;
+    background-color: #EF5F43;
+}
+
+/* nav bar end */
+/* dorp down manu bar start */
+.academics-drop-menu:hover .academics-menu{
+    display:block;
+}
+.academics-menu{
+
+position: absolute;
+
+top: 101%;
+
+left: 34%;
+
+z-index: 100;
+
+background: white;
+
+margin: 0px;
+
+width: 214px;
+
+padding: 10px 10px 0px 15px;
+
+display: none;
+}
+.drop-down-anchor-tag{font-size: 16px;font-family: inherit;letter-spacing: 0px;padding: 7px 0px;display: block;color: black;}
+
+.drop-down-anchor-tag:hover{
+    color: #EF5F43;
+}
+.faculty-menu{
+    
+position: absolute;
+    
+top: 101%;
+    
+left: 54%;
+    
+z-index: 100;
+    
+background: white;
+    
+margin: 0px;
+    
+width: 186px;
+    
+padding: 9px 10px 0px 15px;
+    
+display: none;
+}
+.faclty-drop-menu:hover .faculty-menu{display:block; }
+.pages-menu{
+    
+position: absolute;
+    
+top: 101%;
+    
+right: -15%;
+    
+z-index: 100;
+    
+background: white;
+    
+margin: 0px;
+    
+width: 186px;
+    
+padding: 9px 10px 0px 15px;
+    
+display: none;
+    }
+.pages-drop-menu:hover .pages-menu{display:block; }
+/* dorp down manu bar end */
+/* banner section start*/
+    .header-banner{
+        position: relative;
+        background-image: url(../images/vpicampus.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 649px;
+    }
+    .shadow{
+
+background: #010101;
+
+opacity: 85%;
+
+width: 100%;
+
+height: 100%;
+
+position: absolute;
+
+top: 0;
+
+left: 0;
+
+right: 0;
+
+bottom: 0;
+}
+.banner-left{
+    z-index: 100;
+    color: white;
+    padding-top: 141px;
+}
+.banner-title{
+
+font-size: 52px;
+
+font-weight: 600;
+
+font-family: 'Poppins';
+
+line-height: 61px;
+
+letter-spacing: -2px;
+}
+.banner-sub-title{
+    
+font-size: 18px;
+    
+font-weight: 400;
+    
+line-height: 22px;
+    
+display: block;
+}
+.banner-button{
+    
+padding: 16px 48px;
+    
+color: #060705;
+    
+background: #a0c814;
+    
+font-size: 15px;
+    
+font-weight: 500;
+    
+font-family: 'Poppins';
+}
+.banner-button:hover{
+    color:white;
+    background: #ef4634;
+}
+.banner-right{
+    position: relative;
+    height: 496px;
+}
+.first-images{position: absolute;z-index: 2;top: 55px;}
+.first-images img{
+
+max-width: 508px;
+
+filter: brightness( 125% ) contrast( 90% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+}
+.secend-images{
+
+position: absolute;
+
+z-index: 0;
+
+top: -11px;
+
+left: 8px;
+}
+.secend-images img{
+
+max-width: 508px;
+}
+.banner-position{
+    
+padding-top: 152px;
+}
+/* banner section end*/
+/* about us section start */
+.about-section{
+
+padding-bottom: 32px;
+
+background: #EAEAEA;
+}
+.about-row{
+    
+padding: 100px 0px 100px 0px;
+}
+.about-title{
+
+font-size: 19px;
+
+font-weight: 500;
+
+letter-spacing: 3px;
+
+color: #EE5F43;
+
+line-height: 53px;
+}
+.about-sub-title{
+
+font-size: 38px;
+
+font-weight: 500;
+
+font-family: 'Poppins';
+
+line-height: 45px;
+
+display: block;
+}
+.about-pragraph{
+
+font-size: 17px;
+
+font-weight: 100;
+
+line-height: 23px;
+
+display: block;
+}
+.about-button{
+    
+padding: 16px 48px;
+    
+color: #060705;
+    
+background: #a0c814;
+    
+font-size: 15px;
+    
+font-weight: 500;
+    
+font-family: 'Poppins';
+}
+
+.about-button:hover{
+    color:white;
+    background: #ef4634;
+}
+.about-img{
+
+width: 100%;
+
+height: 400px;
+
+display: flex;
+
+position: relative;
+}
+.about-img img{
+    
+z-index: 2;
+}
+.about-shop{
+    
+width: 400px;
+    
+height: 300px;
+    
+background: #a0c814;
+    
+position: absolute;
+    
+z-index: 1;
+    
+bottom: -29px;
+    
+left: -33px;
+}
+
+.about-section-2{
+
+}
+.left-content{
+
+}
+.left-content i{
+
+padding-top: 30px;
+
+padding-left: 10px;
+
+background: red;
+
+width: 100px;
+
+height: 100px;
+
+border-radius: 50%;
+
+font-size: 33px;
+}
+.right-content{
+
+margin: 0px;
+
+padding: 0px;
+}
+.right-title{
+
+font-size: 19px;
+
+font-weight: 700;
+
+line-height: 2;
+}
+.right-praghrap{
+    
+font-size: 15px;
+    
+font-weight: 400;
+    
+line-height: 18px;
+    
+display: block;
+}
+.about-part{
+    
+}
+/* about us section end */
+
+
+/* disply size md */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #top-header{display: none; }
+    .top-bar{display:none;}
+    #top-bars-1{display:block;}
+/* nav bar start */
+#header-area{position: absolute;z-index: 1000000000;top: 1%;left: 0;right: 0;}
+
+.top-bars {
+    display: inline-block;
+    position: relative;
+  }
+.top-bars:hover .mid-nav-bar{
+    display: block;
+}
+.top-bars-i{
+
+color: aliceblue;
+
+font-size: 31px;
+
+padding: 24px 10px;
+}
+.top-bars-i:hover{
+    color: #EF5F43;
+}
+.mid-nav-bar{
+
+background: white;
+
+position: absolute;
+
+top: 101%;
+
+left: -37%;
+
+width: 991px;
+
+z-index: 100;
+
+display: none;
+
+text-align: left;
+}
+
+
+.mid-menu{
+
+padding: 0px;
+
+margin: 0px;
+}
+.mid-anchor{
+    
+color: black;
+    
+display: block;
+    
+padding: 10px 0px 10px 20px;
+    
+font-size: 15px;
+    
+font-weight: 500;
+}
+.active{
+    color: #EF5F43;
+}
+.mid-anchor:hover{
+    color: #EF5F43;
+}
+.mid-border{
+    border-style: solid;
+    border-color: #c8c9ca;
+    border-width: 0px 1px 0px 1px;
+}
+.college-logo{
+
+padding: 5px 0px;
+}
+.college-logo img{
+
+max-width: 10%;
+
+}
+
+.add-button{
+
+}
+.add-button a{
+    
+padding: 11px 30px;
+    
+color: #383A3C;
+    
+background: #A0C814;
+    
+font-size: 16px;
+    
+font-weight: 500;
+}
+.add-button:hover a{
+    color:white;
+    background-color: #EF5F43;
+}
+/* nav bar end */
+/* banner section start*/
+.header-banner{
+    width: 100%;
+    height: auto;
+}
+.shadow{
+}
+.banner-left{z-index: 100;color: white;padding-top: 0px;height: 200px;display: block;}
+.banner-title{
+
+font-size: 53px;
+
+font-weight: 600;
+
+line-height: 80px;
+
+letter-spacing: 0px;
+}
+.banner-sub-title{
+
+font-size: 21px;
+
+font-weight: initial;
+
+line-height: 0px;
+
+display: block;
+}
+.banner-button{
+
+padding: 16px 48px;
+
+color: #060705;
+
+background: #a0c814;
+
+font-size: 15px;
+
+font-weight: 500;
+
+font-family: 'Poppins';
+}
+.banner-button:hover{
+color:white;
+background: #ef4634;
+}
+.banner-right{position: relative;padding-top: 0px;margin-top: 26px;text-align: center;height: 600px;}
+.first-images{position: absolute;z-index: 2;top: 79px;left: 143px;}
+.first-images img{
+
+max-width: 602px;
+
+filter: brightness( 125% ) contrast( 90% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+}
+.secend-images{
+
+position: absolute;
+
+z-index: 0;
+
+top: 1px;
+
+left: 146px;
+}
+.secend-images img{
+
+max-width: 603px;
+}
+.banner-position{
+
+padding-top: 172px;
+
+text-align: center;
+}
+/* banner section end*/
+/* about us section start */
+.about-section{
+
+padding-bottom: 0px;
+
+background: #EAEAEA;
+
+}
+    .about-row{
+        
+    padding: 100px 0px 100px 0px;
+    }
+    
+    .about-title{
+    
+font-size: 17px;
+    
+font-weight: 500;
+    
+letter-spacing: 3px;
+    
+color: #EE5F43;
+    
+line-height: 53px;
+    }
+    .about-sub-title{
+    
+font-size: 32px;
+    
+font-weight: 500;
+    
+font-family: 'Poppins';
+    
+line-height: 34px;
+    
+display: block;
+    }
+    .about-pragraph{
+    
+font-size: 14px;
+    
+font-weight: 100;
+    
+line-height: 20px;
+    
+display: block;
+    }
+    .about-button{
+        
+padding: 13px 34px;
+        
+color: #060705;
+        
+background: #a0c814;
+        
+font-size: 15px;
+        
+font-weight: 500;
+        
+font-family: 'Poppins';
+    }
+    
+    .about-button:hover{
+        color:white;
+        background: #ef4634;
+    }
+    .about-img{
+    
+width: 100%;
+    
+height: 350px;
+    
+display: flex;
+    
+position: relative;
+    }
+    .about-img img{
+        
+    z-index: 2;
+    }
+    .about-shop{
+        
+    width: 400px;
+        
+    height: 300px;
+        
+    background: #a0c814;
+        
+    position: absolute;
+        
+    z-index: 1;
+        
+    bottom: -29px;
+        
+    left: -33px;
+    }
+    /* about us section end */
+
+
+}
+
+/* disply size sm */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    #top-header{display: none; }
+    .top-bar{display:none;}
+    #top-bars-1{display:block;}
+/* nav bar start */
+#header-area{position: absolute;z-index: 1000000000;top: 1%;left: 0;right: 0;}
+
+.top-bars {
+    display: inline-block;
+    position: relative;
+  }
+.top-bars:hover .mid-nav-bar{
+    display: block;
+}
+.top-bars-i{
+
+color: aliceblue;
+
+font-size: 32px;
+
+padding: 12px 10px;
+}
+.top-bars-i:hover{
+    color: #EF5F43;
+}
+.mid-nav-bar{
+
+background: #ffffff;
+
+position: absolute;
+
+top: 101%;
+
+left: -84%;
+
+width: 766px;
+
+z-index: 100;
+
+display: none;
+
+text-align: left;
+}
+
+
+.mid-menu{
+
+padding: 0px;
+
+margin: 0px;
+}
+.mid-anchor{
+    
+color: black;
+    
+display: block;
+    
+padding: 10px 0px 10px 20px;
+    
+font-size: 15px;
+    
+font-weight: 500;
+}
+.active{
+    color: #EF5F43;
+}
+.mid-anchor:hover{
+    color: #EF5F43;
+}
+.mid-border{
+    border-style: solid;
+    border-color: #c8c9ca;
+    border-width: 0px 1px 0px 1px;
+}
+.college-logo{
+
+padding: 5px 0px;
+}
+.college-logo img{
+
+max-width: 10%;
+
+}
+
+.add-button{
+
+}
+.add-button a{
+    
+padding: 7px 30px;
+    
+font-size: 14px;
+    
+font-weight: 500;
+    
+color: #262626;
+    
+background: #A0C814;
+}
+.add-button:hover a{
+    color:white;
+    background-color: #EF5F43;
+}
+/* nav bar end */
+/* banner section start*/
+.header-banner{
+    width: 100%;
+    height: auto;
+}
+.shadow{
+}
+.banner-left{z-index: 100;color: white;padding-top: 0px;height: 200px;display: block;}
+.banner-title{
+
+font-size: 45px;
+
+font-weight: 600;
+
+line-height: 84px;
+
+letter-spacing: 0px;
+}
+.banner-sub-title{
+
+font-size: 18px;
+
+font-weight: initial;
+
+line-height: 0px;
+
+display: block;
+}
+.banner-button{
+
+padding: 12px 40px;
+}
+.banner-button:hover{
+color:white;
+background: #ef4634;
+}
+.banner-right{position: relative;padding-top: 0px;margin-top: 26px;text-align: center;height: 600px;}
+.first-images{position: absolute;z-index: 2;top: 79px;left: 56px;}
+.first-images img{
+
+max-width: 602px;
+
+filter: brightness( 125% ) contrast( 90% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+}
+.secend-images{
+
+position: absolute;
+
+z-index: 0;
+
+top: 1px;
+
+left: 60px;
+}
+.secend-images img{
+
+max-width: 603px;
+}
+.banner-position{
+
+padding-top: 172px;
+
+text-align: center;
+}
+/* banner section end*/
+/* about us section start */
+.about-section{
+
+padding-bottom: 76px;
+
+background: #EAEAEA;
+
+}
+    .about-row{
+        
+padding: 40px 0px 40px 0px;
+    }
+    .about-left{
+
+padding-bottom: 100px;
+
+}
+    .about-right{
+        
+    }
+    .about-title{
+    
+font-size: 17px;
+    
+font-weight: 500;
+    
+letter-spacing: 3px;
+    
+color: #EE5F43;
+    
+line-height: 53px;
+    }
+    .about-sub-title{
+    
+font-size: 32px;
+    
+font-weight: 500;
+    
+font-family: 'Poppins';
+    
+line-height: 34px;
+    
+display: block;
+    }
+    .about-pragraph{
+    
+font-size: 14px;
+    
+font-weight: 100;
+    
+line-height: 20px;
+    
+display: block;
+    }
+    .about-button{
+        
+padding: 12px 26px;
+        
+color: #060705;
+        
+background: #a0c814;
+        
+font-size: 15px;
+        
+font-weight: 500;
+        
+font-family: 'Poppins';
+    }
+    
+    .about-button:hover{
+        color:white;
+        background: #ef4634;
+    }
+    .about-img{
+    
+width: 100%;
+    
+height: 286px;
+    
+display: block;
+    
+position: relative;
+    
+z-index: 2;
+    }
+    .about-img img{
+        
+    z-index: 2;
+    }
+    .about-shop{
+        
+width: 359px;
+        
+height: 244px;
+        
+background: #a0c814;
+        
+position: absolute;
+        
+z-index: -1;
+        
+bottom: -74px;
+        
+left: -21px;
+    }
+    /* about us section end */
+
+}
+
+
+/* disply size xs */
+@media (max-width: 575.98px)  { 
+    #top-header{display: none; }
+    .top-bar{display:none;}
+    #top-bars-1{display:block;}
+    .last-button {display: none;}
+
+/* nav bar start */
+#header-area{position: absolute;z-index: 1000000000;top: 0%;left: 0;right: 0;}
+.top-bars {
+    display: inline-block;
+    position: relative;
+  }
+.top-bars:hover .mid-nav-bar{
+    display: block;
+}
+.top-bars-i{
+
+/* padding: 12px 10px; */
+
+color: aliceblue;
+
+font-size: 32px;
+
+padding: 12px 10px;
+}
+.top-bars-i:hover{
+    color: #EF5F43;
+}
+.mid-nav-bar{
+
+background: #f8f9f9;
+
+position: absolute;
+
+top: 131%;
+
+left: -49%;
+
+width: 575px;
+
+z-index: 100;
+
+display: none;
+
+text-align: left;
+}
+.mid-menu{
+
+padding: 0px;
+
+margin: 0px;
+}
+.mid-anchor{
+    
+color: black;
+    
+display: block;
+    
+padding: 10px 0px 10px 20px;
+    
+font-size: 12px;
+    
+font-weight: 500;
+}
+.active{
+    color: #EF5F43;
+}
+.mid-anchor:hover{
+    color: #EF5F43;
+}
+.mid-border{
+    border-style: solid;
+    border-color: #c8c9ca;
+    border-width: 0px 0px 0px 1px;
+}
+.college-logo{
+
+padding: 5px 0px;
+}
+.college-logo img{
+
+max-width: 16%;
+}
+/* nav bar end */
+/* banner section start*/
+.header-banner{
+    width: 100%;
+    height: auto;
+}
+.shadow{
+}
+.banner-left{z-index: 100;color: white;padding-top: 0px;height: 200px;display: block;}
+.banner-title{
+
+font-size: 36px;
+
+font-weight: 600;
+
+line-height: 56px;
+
+letter-spacing: 0px;
+}
+.banner-sub-title{
+
+font-size: 18px;
+
+font-weight: initial;
+
+line-height: 0px;
+
+display: block;
+}
+.banner-button{
+
+padding: 8px 29px;
+}
+.banner-button:hover{
+color:white;
+background: #ef4634;
+}
+.banner-right{position: relative;padding-top: 0px;margin-top: 26px;text-align: center;height: 450px;}
+.first-images{position: absolute;z-index: 2;top: 43px;left: 23px;}
+.first-images img{
+
+max-width: 469px;
+
+filter: brightness( 125% ) contrast( 90% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+}
+.secend-images{
+
+position: absolute;
+
+z-index: 0;
+
+top: -35px;
+
+left: 25px;
+}
+.secend-images img{
+
+max-width: 486px;
+}
+.banner-position{
+
+padding-top: 172px;
+
+text-align: center;
+}
+/* banner section end*/
+/* about us section start */
+.about-section{
+
+    /* padding-top: 167px; */
+    
+    padding-bottom: 32px;
+    
+    background: #EAEAEA;
+    }
+    .about-row{
+        
+padding: 40px 0px 40px 0px;
+    }
+    .about-left{
+
+padding-bottom: 100px;
+
+}
+    .about-right{
+        
+    }
+    .about-title{
+    
+font-size: 17px;
+    
+font-weight: 500;
+    
+letter-spacing: 3px;
+    
+color: #EE5F43;
+    
+line-height: 53px;
+    }
+    .about-sub-title{
+    
+font-size: 32px;
+    
+font-weight: 500;
+    
+font-family: 'Poppins';
+    
+line-height: 34px;
+    
+display: block;
+    }
+    .about-pragraph{
+    
+font-size: 14px;
+    
+font-weight: 100;
+    
+line-height: 20px;
+    
+display: block;
+    }
+    .about-button{
+        
+padding: 13px 34px;
+        
+color: #060705;
+        
+background: #a0c814;
+        
+font-size: 15px;
+        
+font-weight: 500;
+        
+font-family: 'Poppins';
+    }
+    
+    .about-button:hover{
+        color:white;
+        background: #ef4634;
+    }
+    .about-img{
+    
+width: 100%;
+    
+height: 269px;
+    
+display: flex;
+    
+position: relative;
+    }
+    .about-img img{
+        
+    z-index: 2;
+    }
+    .about-shop{
+        
+width: 300px;
+        
+height: 200px;
+        
+background: #a0c814;
+        
+position: absolute;
+        
+z-index: 1;
+        
+bottom: -18px;
+        
+left: -18px;
+    }
+/* about us section end */
+}
